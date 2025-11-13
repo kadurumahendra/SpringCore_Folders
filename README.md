@@ -91,16 +91,5 @@ Kaduru Mahendra
 💻 Passionate about Front End and Backend Development with Spring
 📍 Tirupati, India
 
-⭐ Acknowledgements
-Special thanks to:
-
-Spring Framework Documentation
-
-Online tutorials & community resources
-
 💬 "Learning Spring Core is the foundation to mastering modern Java development."
-
-yaml
-Copy code
-
 ---
