@@ -85,7 +85,7 @@ Practice Singleton and Prototype scopes
 Implement Lookup Method Injection
 
 Strengthen Spring Core fundamentals for future Spring Boot development
----
+
 🧑‍💻 Author
 Kaduru Mahendra
 🎓 Graduated B.E. Computer Science
