@@ -1,4 +1,5 @@
 # 🌱 Spring Core Practice (Bean, Annotation & Java Configuration)
+
 ## 📖 Overview
 This repository contains my learning and practice examples from **Spring Core Framework** using **Maven**.  
 It focuses on key concepts like **Bean Configuration**, **Annotation-based Configuration**, and **Java-based Configuration**, exploring how Spring implements **IoC (Inversion of Control)** and **Dependency Injection**.
@@ -42,57 +43,53 @@ Copy code
 | **Task2** | Using annotations like `@Component`, `@Autowired` |
 | **Task3** | Java-based configuration using `@Configuration`, `@Bean` |
 | **Task4** | Lookup method and prototype bean demonstration |
-| **Task5** | Bean lifecycle demo (`init` / `destroy` methods) |
+| **Task5** | Bean lifecycle demo (`init` / `destroy` methods`) |
 
 ---
 
 ## 🛠️ Tools & Technologies
-- ☕ **Java 17+**
-- 🌸 **Spring Framework (Core)**
-- 🧱 **Maven**
-- 🖋️ **Eclipse / IntelliJ IDEA**
+- ☕ **Java 17+**  
+- 🌸 **Spring Framework (Core)**  
+- 🧱 **Maven**  
+- 🖋️ **Eclipse / IntelliJ IDEA**  
 - 📁 **applicationContext.xml** (for XML configuration)
 
 ---
 
 ## ▶️ How to Run
-1. **Clone the Repository**
-   ```bash
-   git clone https://github.com/kadurumahendra/SpringCore_Folders.git
-   cd SpringCore_Folders
-Build the Project using Maven
 
+### 1. Clone the Repository
+```bash
+git clone https://github.com/kadurumahendra/SpringCore_Folders.git
+cd SpringCore_Folders
+2. Build the Project using Maven
 bash
 Copy code
 mvn clean install
-Run the Application
+3. Run the Application
+From IDE:
+Right-click Test.java → Run as → Java Application
 
-From IDE → Right-click Test.java → Run as → Java Application
-
-OR via terminal:
+OR via Terminal:
 
 bash
 Copy code
 mvn exec:java -Dexec.mainClass="com.example.MainClass"
 📘 Learning Goals
-Understand Spring Bean lifecycle and IoC container.
+Understand Spring Bean lifecycle and IoC container
 
-Explore Dependency Injection (DI) with XML, Annotations, and Java Config.
+Explore Dependency Injection (DI) with XML, Annotations, and Java Config
 
-Practice Singleton and Prototype scopes.
+Practice Singleton and Prototype scopes
 
-Implement Lookup Method Injection.
+Implement Lookup Method Injection
 
-Strengthen Spring Core fundamentals for future Spring Boot development.
+Strengthen Spring Core fundamentals for future Spring Boot development
 
 🧑‍💻 Author
 Kaduru Mahendra
--🎓 Graduated B.E. Computer Science
--💻 Passionate about Front End and Backend Development with Spring
--📍 Tirupati, India
+🎓 Graduated B.E. Computer Science
+💻 Passionate about Front End and Backend Development with Spring
+📍 Tirupati, India
 
 💬 "Learning Spring Core is the foundation to mastering modern Java development."
----
-
-
-clean and neat way
