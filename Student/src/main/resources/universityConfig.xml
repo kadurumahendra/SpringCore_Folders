@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- bean definitions here -->
+    
+    <bean id = "universities" class = "universitySystem.University">
+    
+    <property name ="univName">
+    <value>SSE</value>
+    </property>
+    
+    <property name = "location">
+    <value>Chennai</value>
+    </property>
+    
+    </bean>
+    
+    <bean id = "department" class = "universitySystem.Department">
+    
+    <property name = "deptName">
+    <value>CSE</value>
+    </property>
+    
+    <property name = "hod">
+    <value>radhika</value>
+   	</property>
+   	
+   	<property name = "university">
+   	<ref bean = "universities"/>
+   	</property>
+   	
+   	</bean>
+   	
+   	<bean id = "professor" class = "universitySystem.Professor">
+   	
+   	<property name = "profId">
+   	<value>12</value>
+   	</property>
+   	
+   	<property name = "profName">
+   	<value>Parkavi</value>
+   	</property>
+   	
+   	<property name = "salary">
+   	<value>15.00</value>
+   	</property>
+   	
+   	<property name = "department">
+   	<ref bean = "department"/>
+   	</property>
+   	
+   	</bean>
+    
+
+</beans>
