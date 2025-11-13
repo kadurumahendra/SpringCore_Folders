@@ -1,6 +1,10 @@
 # 🌱 Spring Core Practice (Bean, Annotation & Java Config)
 
-links are not workings ![Java](https://img.shields.io/badge/Java-17-orange) ![Spring](https://img.shields.io/badge/Spring-Core-brightgreen) ![Maven](https://img.shields.io/badge/Build-Maven-blue) ![IDE](https://img.shields.io/badge/IDE-Eclipse%20%7C%20IntelliJ-yellow) ![Status](https://img.shields.io/badge/Status-Learning-success)
+links are not workings ![Java](https://img.shields.io/badge/Java-17-orange) 
+![Spring](https://img.shields.io/badge/Spring-Core-brightgreen) 
+![Maven](https://img.shields.io/badge/Build-Maven-blue) 
+![IDE](https://img.shields.io/badge/IDE-Eclipse%20%7C%20IntelliJ-yellow) 
+![Status](https://img.shields.io/badge/Status-Learning-success)
 
 ---
 
@@ -92,8 +96,8 @@ Strengthen Spring Core fundamentals for future Spring Boot development.
 
 🧑‍💻 Author
 Kaduru Mahendra
-🎓 Final Year B.E. Computer Science
-💻 Passionate about Backend Development with Spring
+🎓 Graduated B.E. Computer Science
+💻 Passionate about Front End and Backend Development with Spring
 📍 Tirupati, India
 
 ⭐ Acknowledgements
@@ -109,10 +113,3 @@ yaml
 Copy code
 
 ---
-
-✅ **Next step:**  
-Copy this into your GitHub repo as `README.md` (root folder).  
-It will automatically show beautifully formatted on your GitHub page:  
-👉 [https://github.com/kadurumahendra/SpringCore_Folders](https://github.com/kadurumahendra/SpringCore_Folders)  
-
-Would you like me to add a **“📸 Output Screenshots”** section (for console results or bean scope output)? It makes your repo look more complete.
