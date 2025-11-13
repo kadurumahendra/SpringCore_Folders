@@ -87,9 +87,9 @@ Strengthen Spring Core fundamentals for future Spring Boot development.
 
 🧑‍💻 Author
 Kaduru Mahendra
-🎓 Graduated B.E. Computer Science
-💻 Passionate about Front End and Backend Development with Spring
-📍 Tirupati, India
+-🎓 Graduated B.E. Computer Science
+-💻 Passionate about Front End and Backend Development with Spring
+-📍 Tirupati, India
 
 💬 "Learning Spring Core is the foundation to mastering modern Java development."
 ---
