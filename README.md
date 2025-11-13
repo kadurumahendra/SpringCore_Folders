@@ -31,11 +31,6 @@ SpringCore_Folders/
 ├── pom.xml # Maven configuration
 └── README.md # Project documentation
 
-yaml
-Copy code
-
----
-
 ## 🧩 Example Modules
 | Module Name | Description |
 |--------------|-------------|
