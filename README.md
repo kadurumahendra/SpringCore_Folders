@@ -1,9 +1,9 @@
 # 🌱 Spring Core Practice (Bean, Annotation & Java Config)
-![Java](https://img.shields.io/badge/Java-17-orange) 
-![Spring](https://img.shields.io/badge/Spring-Core-brightgreen) 
-![Maven](https://img.shields.io/badge/Build-Maven-blue) 
-![IDE](https://img.shields.io/badge/IDE-Eclipse%20%7C%20IntelliJ-yellow) 
-![Status](https://img.shields.io/badge/Status-Learning-success)
+![Java](https://img.shields.io/badge/Java-17-orange?logo=openjdk&logoColor=white)
+![Spring](https://img.shields.io/badge/Spring-Core-brightgreen?logo=spring&logoColor=white)
+![Maven](https://img.shields.io/badge/Build-Maven-blue?logo=apache-maven&logoColor=white)
+![IDE](https://img.shields.io/badge/IDE-Eclipse%20%7C%20IntelliJ-yellow?logo=eclipseide&logoColor=white)
+![Status](https://img.shields.io/badge/Status-Learning-success?logo=github)
 
 ---
 
