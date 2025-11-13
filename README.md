@@ -1,12 +1,4 @@
-# 🌱 Spring Core Practice (Bean, Annotation & Java Config)
-![Java](https://img.shields.io/badge/Java-17-orange?logo=openjdk&logoColor=white)
-![Spring](https://img.shields.io/badge/Spring-Core-brightgreen?logo=spring&logoColor=white)
-![Maven](https://img.shields.io/badge/Build-Maven-blue?logo=apache-maven&logoColor=white)
-![IDE](https://img.shields.io/badge/IDE-Eclipse%20%7C%20IntelliJ-yellow?logo=eclipseide&logoColor=white)
-![Status](https://img.shields.io/badge/Status-Learning-success?logo=github)
-
----
-
+# 🌱 Spring Core Practice (Bean, Annotation & Java Configuration)
 ## 📖 Overview
 This repository contains my learning and practice examples from **Spring Core Framework** using **Maven**.  
 It focuses on key concepts like **Bean Configuration**, **Annotation-based Configuration**, and **Java-based Configuration**, exploring how Spring implements **IoC (Inversion of Control)** and **Dependency Injection**.
