@@ -1,6 +1,5 @@
 # 🌱 Spring Core Practice (Bean, Annotation & Java Config)
-
-links are not workings ![Java](https://img.shields.io/badge/Java-17-orange) 
+![Java](https://img.shields.io/badge/Java-17-orange) 
 ![Spring](https://img.shields.io/badge/Spring-Core-brightgreen) 
 ![Maven](https://img.shields.io/badge/Build-Maven-blue) 
 ![IDE](https://img.shields.io/badge/IDE-Eclipse%20%7C%20IntelliJ-yellow) 
