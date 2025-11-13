@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- bean definitions here -->
+    
+    
+    <bean id = "authors" class = "setterInjection.task2.Author">
+    <property name = "name">
+    <value>Mahendra</value>
+    </property>
+    <property name = "nationality">
+    <value>Hindu</value>
+    </property>
+    </bean>
+    
+    <bean id = "books" class = "setterInjection.task2.Book">
+    
+   	<property name = "title">
+   	<value>Good Things Take Time</value>
+   	</property>
+   	
+   	<property name = "author">
+   	<ref bean = "authors"/>
+   	</property>
+   	</bean>
+   	
+   	<bean id = "library" class = "setterInjection.task2.Library">
+   	<property name = "libraryName">
+   	<value>SSE LIBRARY</value>
+   	</property>
+   	<property name = "book">
+   	<ref bean = "books"/>
+   	</property>
+   	</bean>
+    
+
+</beans>
