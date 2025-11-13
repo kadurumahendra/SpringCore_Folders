@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans 
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- Bean definition for Course -->
+    <bean id="course" class="course.Course">
+        <property name="coursename">
+            <value>Cryptography</value>
+        </property>
+        <property name="coursecode">
+            <value>SPIC7</value>
+        </property>
+    </bean>
+
+    <!-- Bean definition for Student -->
+    <bean id="student" class="course.Student">
+        <property name="studentid">
+            <value>10</value>
+        </property>
+        <property name="studentname">
+            <value>Mahendra</value>
+        </property>
+        <property name="course">
+            <ref bean="course" />
+        </property>
+    </bean>
+
+</beans>
