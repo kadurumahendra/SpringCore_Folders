@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- bean definitions here -->
+    
+    <bean id = "authors" class = "librarysystem.Author">
+    <property name = "authorName">
+    <value>edison</value>
+    </property>
+    <property name = "nationality">
+    <value>Hindu</value>
+    </property>
+    </bean>
+    
+    <bean id = "books" class = "librarysystem.Book">
+    <property name = "bookName">
+    <value>Good Things Take Time</value>
+    </property>
+    <property name = "price">
+    <value>14.00</value>
+    </property>
+    
+    <property name = "author">
+    <ref bean = "authors"/>
+    </property>
+    
+    </bean>
+    
+    <bean id = "library" class = "librarysystem.Library">
+    <property name = "libId">
+    <value>12</value>
+    </property>
+    <property name = "libName">
+    <value> SSE Library </value>
+    </property>
+    
+    <property name = "book">
+    <ref bean = "books"/>
+    </property>
+    
+    </bean>
+    
+
+</beans>

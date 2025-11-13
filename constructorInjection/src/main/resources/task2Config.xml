@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- bean definitions here -->
+    
+    <bean id = "employees" class = "constructorInjection.task2.Employee">
+    <constructor-arg name = "empId">
+    <value>10</value>
+    </constructor-arg>
+    
+    <constructor-arg name = "empName">
+    <value>Mahendra</value>
+    </constructor-arg>
+    
+    <constructor-arg name = "department">
+    <ref bean = "departments"/>
+    </constructor-arg>
+    
+    </bean>
+    
+    
+    <bean id = "departments" class = "constructorInjection.task2.Department">
+    <constructor-arg name = "deptName">
+    <value>Java</value>
+    </constructor-arg>
+    
+    <constructor-arg name = "location">
+    <value>Bangalore</value>
+    </constructor-arg>
+    
+    </bean>
+
+</beans>

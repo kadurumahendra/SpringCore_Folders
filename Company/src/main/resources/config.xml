@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id ="car" class = "company.Car">
+    
+    <property name = "engineNumber">
+    <value>11</value>
+    </property>
+    
+    <property name = "engineType">
+    <value>good</value>
+    </property>
+    
+    <property name = "horsePower">
+    <value>200</value>
+    </property>
+    
+    </bean>
+    
+    
+    <bean id = "engines" class = "company.Engine">
+    
+    <property name = "carName">
+    <value>tata</value>
+    </property>
+    
+    <property name = "carModel">
+    <value>tata vitusa</value>
+    </property>
+    
+    <property name = "price">
+    <value>15.0</value>
+    </property>
+    
+    <property name = "car">
+    <ref bean = "car"/>
+    </property>
+    
+    </bean>
+    
+
+</beans>
