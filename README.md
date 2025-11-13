@@ -1,10 +1,6 @@
 # 🌱 Spring Core Practice (Bean, Annotation & Java Config)
 
-![Java](https://img.shields.io/badge/Java-17-orange)
-![Spring](https://img.shields.io/badge/Spring-Core-brightgreen)
-![Maven](https://img.shields.io/badge/Build-Maven-blue)
-![IDE](https://img.shields.io/badge/IDE-Eclipse%20%7C%20IntelliJ-yellow)
-![Status](https://img.shields.io/badge/Status-Learning-success)
+links are not workings ![Java](https://img.shields.io/badge/Java-17-orange) ![Spring](https://img.shields.io/badge/Spring-Core-brightgreen) ![Maven](https://img.shields.io/badge/Build-Maven-blue) ![IDE](https://img.shields.io/badge/IDE-Eclipse%20%7C%20IntelliJ-yellow) ![Status](https://img.shields.io/badge/Status-Learning-success)
 
 ---
 
@@ -26,7 +22,7 @@ It focuses on key concepts like **Bean Configuration**, **Annotation-based Confi
 ---
 
 ## 🏗️ Project Structure
-SpringCorePractice/
+SpringCore_Folders/
 │
 ├── src/main/java/
 │ ├── springXML/ # XML-based configuration examples
@@ -67,8 +63,8 @@ Copy code
 ## ▶️ How to Run
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/<your-username>/SpringCorePractice.git
-   cd SpringCorePractice
+   git clone https://github.com/kadurumahendra/SpringCore_Folders.git
+   cd SpringCore_Folders
 Build the Project using Maven
 
 bash
@@ -114,5 +110,9 @@ Copy code
 
 ---
 
-Would you like me to also include a **section for screenshots/output images** (for example: `![](screenshots/output1.png)`)?  
-That makes the README look even better when you upload project results.
+✅ **Next step:**  
+Copy this into your GitHub repo as `README.md` (root folder).  
+It will automatically show beautifully formatted on your GitHub page:  
+👉 [https://github.com/kadurumahendra/SpringCore_Folders](https://github.com/kadurumahendra/SpringCore_Folders)  
+
+Would you like me to add a **“📸 Output Screenshots”** section (for console results or bean scope output)? It makes your repo look more complete.
